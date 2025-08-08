@@ -90,7 +90,6 @@ document.addEventListener('DOMContentLoaded', function() {
         profileName,
         profileHandle,
         profileBio,
-        profileStatus,
         profileMemo
     ];
     
@@ -163,4 +162,5 @@ document.addEventListener('DOMContentLoaded', function() {
     const statusIndicator = document.createElement('div');
     statusIndicator.className = 'status-indicator status-online'; // Default to online (green)
     profileAvatar.appendChild(statusIndicator);
+
     });
